@@ -1,0 +1,7 @@
+shared:
+  image: vespaengine/vespa-dev
+
+jobs:
+  main:
+    steps:
+      - run_arbitrary_script: mvn -T 2 -nsu install

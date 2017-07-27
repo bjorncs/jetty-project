@@ -1,0 +1,9 @@
+sudo: required
+
+services:
+   - docker
+
+install: true
+
+script: travis.sh
+

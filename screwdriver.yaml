@@ -4,4 +4,4 @@ shared:
 jobs:
   main:
     steps:
-      - run_arbitrary_script: mvn -nsu install
+      - run_arbitrary_script: mvn clean install

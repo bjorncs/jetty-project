@@ -1,5 +1,5 @@
 shared:
-  image: vespaengine/vespa-dev
+  image: vespaengine/vespa-dev:root-user
 
 jobs:
   main:

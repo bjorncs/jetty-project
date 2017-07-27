@@ -5,5 +5,5 @@ services:
 
 install: true
 
-script: travis.sh
+script: sh ./travis.sh
 
